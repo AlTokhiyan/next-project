@@ -1,1 +1,1 @@
-export {AnimationAxes} from './animationAxes'
+export {AnimationAxes} from './AnimationAxes'
