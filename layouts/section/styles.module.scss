@@ -1,0 +1,16 @@
+.section{
+  width: calc(100% - 60px);
+  min-height: 300px;
+  border: 1px solid red;
+  margin: 20px 30px;
+
+  h1{
+    font-family: UbuntuBold, sans-serif;
+    text-align: center;
+    box-shadow: 0 0 3px red;
+    margin-bottom: 30px;
+    font-size: 3rem;
+    line-height: initial;
+  }
+
+}

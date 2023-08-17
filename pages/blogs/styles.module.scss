@@ -1,0 +1,23 @@
+.blogsContainer {
+  width: calc(100% - 60px);
+  box-shadow: 0 0 3px blue;
+  display: flex;
+  align-content: center;
+  column-gap: 10px;
+  row-gap: 10px;
+  flex-wrap: wrap;
+  margin: 0 30px;
+
+  .blogItem {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #666;
+    background-color: rgba(0, 0, 0, 0.1);
+
+    font-family: UbuntuBold, sans-serif;
+
+  }
+}

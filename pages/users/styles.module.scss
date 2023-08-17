@@ -1,0 +1,31 @@
+@import "@/styles/varibles";
+
+.content {
+  width: max-content;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  .userItem{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    transition: .3s ease;
+    padding: 3px 10px;
+
+    &:hover{
+      background-color: $greyishBlue4;
+      color: $paleGrey;
+    }
+    p{
+      span{
+        font-family: UbuntuBold, sans-serif;
+      }
+    }
+
+  }
+  .name {
+    padding: 5px 10px ;
+    font-family: UbuntuBold, sans-serif;
+    border-bottom: 1px solid $greyishBlue4;
+  }
+}

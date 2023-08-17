@@ -1,0 +1,21 @@
+.user{
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgba(0,0,0,.2);
+  border-radius: 10px;
+  margin: auto;
+  color: red;
+  p{
+    display: flex;
+    align-content: center;
+    column-gap: 5px;
+    span{
+      font-family: UbuntuBold,sans-serif;
+    }
+  }
+
+}

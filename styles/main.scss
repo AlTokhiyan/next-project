@@ -1,0 +1,22 @@
+@import "@/styles/varibles";
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  outline: none !important;
+  box-shadow: none;
+
+  font-size: 10px;
+  line-height: 10px;
+}
+
+body {
+  * {
+    color: $deepSapphire;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    font-weight: 400;
+    font-family: UbuntuRegular, sans-serif;
+  }
+}

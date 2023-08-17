@@ -1,0 +1,16 @@
+.blog{
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0,0,0,.2);
+  border-radius: 10px;
+margin: auto;
+  color: red;
+  p{
+    font-size: 2.1rem;
+    font-family: UbuntuBold,sans-serif;
+  }
+
+}

@@ -1,0 +1,15 @@
+.goBack {
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  border: none;
+  column-gap: 10px;
+
+  font-family: UbuntuBold, sans-serif;
+  opacity: .7;
+  transition: .3s ease;
+
+  &:hover {
+    opacity: 1;
+  }
+}
